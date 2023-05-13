@@ -1,8 +1,7 @@
 # Idea Notepad
- A Simple Program wriiten in Python to manage Ideas 
-# Idea Notepad
 
 Idea Notepad is a Python-based desktop application, designed to provide an intuitive interface for users to manage and explore their ideas, hypotheses, and experiments.
+![image](https://github.com/derbengale/Idea-Notepad/assets/28060331/1119af72-0f33-47af-a7db-190441133a0e)
 
 ## Features
 
