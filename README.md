@@ -1,7 +1,10 @@
 # Idea Notepad
 
-Idea Notepad is a Python-based desktop application, designed to provide an intuitive interface for users to manage and explore their ideas, hypotheses, and experiments.
-![image](https://github.com/derbengale/Idea-Notepad/assets/28060331/1119af72-0f33-47af-a7db-190441133a0e)
+Idea Notepad is a Python-based desktop application, designed to provide an intuitive interface for users to manage and explore their ideas, hypotheses, and experiments. I created it as a Template to work with JSON Files in another project.
+
+![image](https://github.com/derbengale/Idea-Notepad/assets/28060331/0e408935-4cbc-4754-934e-f3338d65df17)
+
+
 
 ## Features
 
