@@ -1,30 +1,49 @@
+![image](https://github.com/derbengale/Idea-Notepad/assets/28060331/65decf16-bcef-4682-8c8f-8d09fa405315)
+
 # Idea Notepad
 
-Idea Notepad is a Python-based desktop application, designed to provide an intuitive interface for users to manage and explore their ideas, hypotheses, and experiments. I created it as a Template to work with JSON Files in another project.
+Idea Notepad is a productivity tool designed to help users document and sort their ideas, hypotheses, and experiments.
 
-![image](https://github.com/derbengale/Idea-Notepad/assets/28060331/0e408935-4cbc-4754-934e-f3338d65df17)
+## About
 
+The application is developed using PySide6, a Python binding of the Qt application framework. It provides a graphical interface where users can input their ideas or notes, assign them an importance score, complexity score, and time consumption score. These scores are used to calculate a productivity score which is a way of prioritizing these ideas or notes. 
 
+This tool was designed in a scientific context to facilitate the organization and prioritization of ideas, hypotheses, and experiments. However, it can be easily repurposed for other contexts where such organization and prioritization can be beneficial.
 
 ## Features
 
-- **Entry Management**: The application allows users to add entries with corresponding importance, complexity, and time consumption metrics. Each entry also includes a section for additional notes.
+- Add new ideas, hypotheses or experiments with an importance score, complexity score, and time consumption score.
+- Filter entries based on the type (All, Ideas, Hypotheses, Experiments).
+- Edit existing entries.
+- Delete entries.
+- Undo the last deletion.
+- Save changes automatically to a JSON file.
+- Load previous entries from a JSON file.
 
-- **Productivity Score Calculation**: Idea Notepad calculates a 'Productivity Score' for each entry, based on the provided importance, complexity, and time consumption. This feature enables users to gauge the efficiency of their ideas or hypotheses.
+## Dependencies
 
-- **Data Storage**: All the information is stored in a JSON file, ensuring that the data is saved and can be retrieved for future use.
+Idea Notepad requires PySide6 to run. You can install it via pip:
 
-- **Interactive Table View**: The application features an interactive table view that presents all the entries. Users can filter the table based on the type of entry (Ideas, Hypotheses, Experiments, or All).
+    pip install PySide6
 
-- **Entry Deletion and Undo**: The application supports the deletion of entries with the added functionality of undoing the last deletion if necessary.
+How to Run
 
-## Technology Stack
+Clone this repository, navigate to the directory containing the main.py file, and run the following command:
 
-A combination of PySide6 and Qt is used to build the application's GUI, making it both user-friendly and visually appealing.
+    python Notepad.py
 
-- **PySide6**: Used for creating the application's graphical user interface.
-- **Qt**: A cross-platform application framework used in conjunction with PySide6.
+## Usage
 
-## Additional Features
+- Start by selecting the type of the entry you're about to add from the dropdown menu.
+- Fill in the text fields for "Idea" and "Notes".
+- Use the spin boxes to specify the "Importance", "Complexity", and "Time Consumption" of the entry.
+- Click "Add Entry" to add the entry to the table.
+- You can click on any row in the table to select it. The input fields will populate with the data from the selected row.
+- If you make any changes to an existing entry, the "Save Changes" button will become enabled. Click it to save your changes.
+- You can delete a selected entry by clicking "Delete Entry". If you accidentally delete an entry, you can click "Undo Last Deletion" to restore it.
 
-The application also supports different font sizes to enhance readability.
+Please note that it uses the file `notes.json` to persist the state of the notepad between sessions. This file will be created in the same directory as your script if it does not exist.
+
+## Contributions
+
+Contributions to the Idea Notepad are welcome. Please feel free to open a pull request or issue on GitHub.
