@@ -24,13 +24,13 @@ This tool was designed in a scientific context to facilitate the organization an
 
 Idea Notepad requires PySide6 to run. You can install it via pip:
 
-  pip install PySide6
+    pip install PySide6
 
 How to Run
 
 Clone this repository, navigate to the directory containing the main.py file, and run the following command:
 
-  python Notepad.py
+    python Notepad.py
 
 ## Usage
 
