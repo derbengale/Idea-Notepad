@@ -1,0 +1,47 @@
+{
+  "VALIDATION": {
+    "title": "Please check the input",
+    "description": "A value is missing or invalid."
+  },
+  "NOT_FOUND": {
+    "title": "Not found",
+    "description": "The item no longer exists."
+  },
+  "CONFLICT": {
+    "title": "Conflict",
+    "description": "The item was changed in the meantime."
+  },
+  "DB": {
+    "title": "Database error",
+    "description": "The local database could not complete the operation."
+  },
+  "IO": {
+    "title": "File error",
+    "description": "A file could not be read or written."
+  },
+  "AUTH_REQUIRED": {
+    "title": "Sign-in required",
+    "description": "Sign in with Google to sync this workspace."
+  },
+  "AUTH_FAILED": {
+    "title": "Sign-in failed",
+    "description": "The Google sign-in did not complete."
+  },
+  "NETWORK": {
+    "title": "Network error",
+    "description": "Google Drive could not be reached. Your changes are kept locally."
+  },
+  "QUOTA": {
+    "title": "Drive is busy",
+    "description": "Google Drive rate-limited or rejected the request. Sync retries automatically."
+  },
+  "UNSUPPORTED": {
+    "title": "Not supported",
+    "description": "This file or version is not supported."
+  },
+  "UNKNOWN": {
+    "title": "Unexpected error",
+    "description": "The operation failed."
+  },
+  "details": "Details"
+}

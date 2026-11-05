@@ -1,0 +1,124 @@
+{
+  "appName": "Better Notepad",
+  "actions": {
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "close": "Schließen",
+    "create": "Erstellen",
+    "edit": "Bearbeiten",
+    "duplicate": "Duplizieren",
+    "restore": "Wiederherstellen",
+    "open": "Öffnen",
+    "remove": "Entfernen",
+    "add": "Hinzufügen",
+    "confirm": "Bestätigen",
+    "back": "Zurück",
+    "forward": "Vorwärts",
+    "retry": "Erneut versuchen",
+    "dismiss": "Ausblenden",
+    "copy": "Kopieren",
+    "copyPath": "Pfad kopieren",
+    "search": "Suchen",
+    "settings": "Einstellungen",
+    "export": "Exportieren",
+    "import": "Importieren",
+    "signIn": "Anmelden",
+    "signOut": "Abmelden",
+    "syncNow": "Jetzt synchronisieren",
+    "pause": "Pausieren",
+    "resume": "Fortsetzen",
+    "newNote": "Neue Notiz",
+    "newSchema": "Neues Schema",
+    "newProject": "Neues Projekt",
+    "openFolder": "Ordner öffnen",
+    "apply": "Übernehmen",
+    "done": "Fertig",
+    "untitled": "Ohne Titel"
+  },
+  "states": {
+    "loading": "Lädt…",
+    "empty": "Noch nichts vorhanden",
+    "noSelection": "Wähle eine Notiz zum Lesen",
+    "offline": "Offline — Änderungen werden später synchronisiert",
+    "error": "Etwas ist schiefgelaufen",
+    "saving": "Speichert…",
+    "saved": "Gespeichert",
+    "dirty": "Ungespeicherte Änderungen"
+  },
+  "labels": {
+    "all": "Alle Notizen",
+    "inbox": "Eingang",
+    "trash": "Papierkorb",
+    "notes": "Notizen",
+    "projects": "Projekte",
+    "schemas": "Schemas",
+    "tags": "Tags",
+    "attachments": "Anhänge",
+    "links": "Verknüpfungen",
+    "backlinks": "Verwiesen von",
+    "created": "Erstellt",
+    "updated": "Aktualisiert",
+    "words": "Wörter",
+    "version": "Version",
+    "theme": "Design",
+    "language": "Sprache",
+    "general": "Allgemein",
+    "editor": "Editor",
+    "sync": "Synchronisierung",
+    "data": "Daten",
+    "diagnostics": "Diagnose",
+    "density": "Dichte",
+    "sort": "Sortierung",
+    "actions": "Aktionen",
+    "results": "{{count}} von {{total}}",
+    "searchPlaceholder": "Notizen durchsuchen…"
+  },
+  "theme": {
+    "system": "System",
+    "light": "Hell",
+    "dark": "Dunkel"
+  },
+  "language": {
+    "system": "System",
+    "en": "Englisch",
+    "de": "Deutsch"
+  },
+  "counts": {
+    "notes_one": "{{count}} Notiz",
+    "notes_other": "{{count}} Notizen",
+    "results_one": "{{count}} Treffer",
+    "results_other": "{{count}} Treffer"
+  },
+  "toast": {
+    "saved": "Gespeichert",
+    "deleted": "In den Papierkorb verschoben",
+    "restored": "Wiederhergestellt",
+    "copied": "Kopiert",
+    "linked": "Verknüpfung erstellt",
+    "moved": "Verschoben",
+    "error": "Die Aktion ist fehlgeschlagen"
+  },
+  "field": {
+    "required": "Pflichtfeld"
+  },
+  "palette": {
+    "placeholder": "Notizen suchen oder Befehl ausführen…",
+    "notes": "Notizen",
+    "actions": "Aktionen",
+    "navigation": "Navigation",
+    "noResults": "Keine Treffer"
+  },
+  "shortcuts": {
+    "open": "Tastenkürzel"
+  },
+  "syncStatus": {
+    "idle": "Aktuell",
+    "syncing": "Synchronisiert…",
+    "offline": "Offline",
+    "paused": "Pausiert",
+    "error": "Synchronisierungsfehler",
+    "conflict": "Konflikt",
+    "pending": "{{count}} ausstehend"
+  }
+}

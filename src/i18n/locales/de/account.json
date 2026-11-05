@@ -1,0 +1,17 @@
+{
+  "title": "Konto",
+  "signedInAs": "Angemeldet als {{email}}",
+  "signIn": "Mit Google anmelden",
+  "signInDescription": "Better Notepad nutzt den privaten App-Datenordner deiner Google Drive. Andere Drive-Inhalte sind nicht sichtbar.",
+  "signInHint": "Ein Browserfenster öffnet die Google-Zustimmungsseite.",
+  "clientIdHint": "Die Google-Anmeldung ist in diesem Build nicht konfiguriert. Installiere einen Build mit dem OAuth-Client des Herausgebers.",
+  "notSignedIn": "Nicht angemeldet",
+  "signOutTitle": "Abmelden?",
+  "signOutMessage": "Wähle, was mit der lokalen Kopie deiner Notizen geschieht.",
+  "keepLocal": "Lokale Daten behalten",
+  "removeLocal": "Lokale Daten entfernen",
+  "removeLocalWarning": "Lokale Notizen werden gelöscht. Sie bleiben im App-Datenordner deiner Drive und kehren nach erneuter Anmeldung zurück.",
+  "signOutConfirm": "Abmelden",
+  "openAccountSettings": "Kontoeinstellungen öffnen",
+  "scopeNotice": "Nur der versteckte App-Datenordner wird verwendet. Nichts wird geteilt."
+}

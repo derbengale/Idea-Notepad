@@ -1,49 +1,66 @@
-![image](https://github.com/derbengale/Idea-Notepad/assets/28060331/65decf16-bcef-4682-8c8f-8d09fa405315)
+# Better Notepad
 
-# Idea Notepad
+A schema-driven, offline-first desktop notepad for ideas, hypotheses, experiments and to-dos.
+Notes are plain **Markdown files with YAML front matter**, stored in the user's own private
+Google Drive **app data folder** and indexed locally in SQLite.
 
-Idea Notepad is a productivity tool designed to help users document and sort their ideas, hypotheses, and experiments.
+> **Status: specification phase.**
+> There is no application code yet. The app is built by the `Better Notepad Orchestrator`
+> agent from the binding specifications in [`docs/`](./docs/README.md).
 
-## About
+## What it does
 
-The application is developed using PySide6, a Python binding of the Qt application framework. It provides a graphical interface where users can input their ideas or notes, assign them an importance score, complexity score, and time consumption score. These scores are used to calculate a productivity score which is a way of prioritizing these ideas or notes. 
+- **Schemas instead of one fixed table.** Every schema defines its own fields and computed
+  outputs (text, long text, number, 1–6 scale, coloured status, date, checkbox, tags, formula).
+  Schemas are created, renamed, reordered and extended inside the app.
+- **Free linking.** Any entry can link to any other entry, regardless of schema; backlinks are
+  shown on both sides and can be navigated like a wiki.
+- **Markdown-first notes.** Full markdown (formatting, tables, task lists, code, math, images,
+  hyperlinks to notes, web URLs and attachments) with a live preview.
+- **Infinite canvas sketches.** Drawings are attached to a note and stored as an Excalidraw
+  scene plus a PNG preview.
+- **Projects.** A note belongs to at most one project; projects group a subset of notes across
+  all schemas and can be exported as a self-contained share bundle.
+- **Private sync.** OAuth 2.0 with the `drive.appdata` scope only — the app never sees the rest
+  of the user's Drive. Files sync device-to-device for the same Google account.
+- **German and English UI**, selected from the system language, switchable at runtime.
 
-This tool was designed in a scientific context to facilitate the organization and prioritization of ideas, hypotheses, and experiments. However, it can be easily repurposed for other contexts where such organization and prioritization can be beneficial.
+## Stack
 
-## Features
+| Layer | Technology |
+|---|---|
+| Shell | Tauri 2 (Rust) |
+| UI | React 19, TypeScript, Vite, Tailwind CSS, shadcn/ui |
+| Editor | CodeMirror 6 (source) + unified/react-markdown (preview) |
+| Sketch | Excalidraw (MIT) embedded as a view |
+| Storage | SQLite (`rusqlite`, bundled, FTS5) as local index/cache |
+| Sync | Google Drive REST v3, `appDataFolder` only |
+| i18n | i18next (`en`, `de`) |
 
-- Add new ideas, hypotheses or experiments with an importance score, complexity score, and time consumption score.
-- Filter entries based on the type (All, Ideas, Hypotheses, Experiments).
-- Edit existing entries.
-- Delete entries.
-- Undo the last deletion.
-- Save changes automatically to a JSON file.
-- Load previous entries from a JSON file.
+## Repository layout (target)
 
-## Dependencies
+```
+docs/                     binding specifications and ADRs
+.github/agents/           orchestrator + 10 work-package subagents
+.github/instructions/     scoped rules for docs, frontend and Rust code
+src/                      React frontend (created by WP-01)
+src-tauri/                Rust core and Tauri configuration (created by WP-01)
+```
 
-Idea Notepad requires PySide6 to run. You can install it via pip:
+## Build (after WP-01)
 
-    pip install PySide6
+```
+npm install
+npm run tauri dev      # development
+npm run tauri build    # NSIS + MSI installer
+```
 
-How to Run
+## Quality policy
 
-Clone this repository, navigate to the directory containing the main.py file, and run the following command:
+There are **no automated tests** in this project. Quality is enforced by documentation
+contracts, TypeScript/Clippy/ESLint gates, a reproducible build and the manual QA checklist in
+[`docs/13-quality-and-qa.md`](./docs/13-quality-and-qa.md).
 
-    python Notepad.py
+## License
 
-## Usage
-
-- Start by selecting the type of the entry you're about to add from the dropdown menu.
-- Fill in the text fields for "Idea" and "Notes".
-- Use the spin boxes to specify the "Importance", "Complexity", and "Time Consumption" of the entry.
-- Click "Add Entry" to add the entry to the table.
-- You can click on any row in the table to select it. The input fields will populate with the data from the selected row.
-- If you make any changes to an existing entry, the "Save Changes" button will become enabled. Click it to save your changes.
-- You can delete a selected entry by clicking "Delete Entry". If you accidentally delete an entry, you can click "Undo Last Deletion" to restore it.
-
-Please note that it uses the file `notes.json` to persist the state of the notepad between sessions. This file will be created in the same directory as your script if it does not exist.
-
-## Contributions
-
-Contributions to the Idea Notepad are welcome. Please feel free to open a pull request or issue on GitHub.
+See [LICENSE](./LICENSE).

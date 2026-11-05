@@ -1,0 +1,22 @@
+{
+  "title": "Keyboard shortcuts",
+  "close": "Close",
+  "newNote": "New note",
+  "newNoteWithSchema": "New note with schema",
+  "newSchema": "New schema",
+  "save": "Save immediately",
+  "undo": "Undo",
+  "redo": "Redo",
+  "search": "Focus search",
+  "palette": "Command palette",
+  "quickOpen": "Quick open note",
+  "editorMode": "Toggle editor mode",
+  "sidebar": "Toggle sidebar",
+  "schemas": "Select schema 1–9",
+  "back": "Back",
+  "forward": "Forward",
+  "deleteNote": "Delete selected note",
+  "rename": "Rename selected note",
+  "escape": "Close overlay or clear search",
+  "help": "Show this sheet"
+}

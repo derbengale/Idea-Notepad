@@ -1,0 +1,24 @@
+{
+  "title": "Synchronisierung",
+  "state": {
+    "idle": "Aktuell",
+    "syncing": "Synchronisiert…",
+    "offline": "Offline",
+    "paused": "Synchronisierung pausiert",
+    "error": "Synchronisierungsfehler",
+    "conflict": "Konflikt"
+  },
+  "pending": "{{count}} ausstehende Vorgänge",
+  "lastSync": "Letzte Synchronisierung: {{when}}",
+  "never": "Noch nie synchronisiert",
+  "syncNow": "Jetzt synchronisieren",
+  "pause": "Synchronisierung pausieren",
+  "resume": "Synchronisierung fortsetzen",
+  "privateFolder": "Alle Daten liegen im versteckten App-Datenordner deiner eigenen Google Drive. Er ist in der Drive-Weboberfläche nicht sichtbar und kann nicht geteilt werden.",
+  "conflicts": "{{count}} Konfliktkopien",
+  "openCopy": "Kopie öffnen",
+  "dismiss": "Ausblenden",
+  "pausedHint": "Die automatische Synchronisierung ist pausiert. Manuelles Synchronisieren funktioniert weiterhin.",
+  "errorBanner": "Synchronisierung fehlgeschlagen: {{message}}",
+  "conflictBanner": "Für „{{title}}“ wurde eine Konfliktkopie erstellt."
+}

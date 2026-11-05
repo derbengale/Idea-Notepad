@@ -1,0 +1,24 @@
+{
+  "title": "Sync",
+  "state": {
+    "idle": "Up to date",
+    "syncing": "Syncing…",
+    "offline": "Offline",
+    "paused": "Sync paused",
+    "error": "Sync error",
+    "conflict": "Conflict"
+  },
+  "pending": "{{count}} pending operations",
+  "lastSync": "Last sync: {{when}}",
+  "never": "Never synced",
+  "syncNow": "Sync now",
+  "pause": "Pause sync",
+  "resume": "Resume sync",
+  "privateFolder": "All data lives in the hidden app data folder of your own Google Drive. It is not visible in the Drive web interface and cannot be shared.",
+  "conflicts": "{{count}} conflict copies",
+  "openCopy": "Open copy",
+  "dismiss": "Dismiss",
+  "pausedHint": "Automatic sync is paused. Manual sync still works.",
+  "errorBanner": "Sync failed: {{message}}",
+  "conflictBanner": "A conflict copy was created for “{{title}}”."
+}

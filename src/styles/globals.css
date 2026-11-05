@@ -1,0 +1,255 @@
+@import "./tokens.css";
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-ui);
+  font-size: 14px;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+::selection {
+  background: var(--accent-soft);
+  color: var(--text);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-strong);
+  border-radius: var(--r-full);
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.app-shell {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100%;
+  background: var(--bg);
+}
+
+.workspace {
+  display: grid;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.region {
+  min-height: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-elevated);
+}
+
+.region + .region {
+  border-left: 1px solid var(--border);
+}
+
+.hairline {
+  height: 1px;
+  background: var(--border);
+}
+
+.prose-bn {
+  color: var(--text);
+  line-height: 1.6;
+  font-size: 14px;
+  word-wrap: break-word;
+}
+
+.prose-bn h1,
+.prose-bn h2,
+.prose-bn h3,
+.prose-bn h4 {
+  line-height: 1.25;
+  margin: 1.4em 0 0.5em;
+  font-weight: 650;
+}
+
+.prose-bn h1 {
+  font-size: 24px;
+}
+.prose-bn h2 {
+  font-size: 19px;
+}
+.prose-bn h3 {
+  font-size: 16px;
+}
+.prose-bn p {
+  margin: 0.6em 0;
+}
+.prose-bn ul,
+.prose-bn ol {
+  margin: 0.6em 0;
+  padding-left: 1.4em;
+}
+.prose-bn li {
+  margin: 0.2em 0;
+}
+.prose-bn a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.prose-bn a.broken-link {
+  color: var(--text-muted);
+  text-decoration-style: dashed;
+}
+.prose-bn code {
+  font-family: var(--font-code);
+  font-size: 12.5px;
+  background: var(--bg-subtle);
+  border-radius: var(--r-sm);
+  padding: 1px 5px;
+}
+.prose-bn pre {
+  background: var(--bg-subtle);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  padding: 12px 14px;
+  overflow: auto;
+}
+.prose-bn pre code {
+  background: transparent;
+  padding: 0;
+}
+.prose-bn blockquote {
+  margin: 0.8em 0;
+  padding: 2px 0 2px 14px;
+  border-left: 3px solid var(--border-strong);
+  color: var(--text-muted);
+}
+.prose-bn table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0.8em 0;
+}
+.prose-bn th,
+.prose-bn td {
+  border: 1px solid var(--border);
+  padding: 6px 10px;
+  text-align: left;
+}
+.prose-bn th {
+  background: var(--bg-subtle);
+}
+.prose-bn hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 1.4em 0;
+}
+.prose-bn img {
+  max-width: 100%;
+  border-radius: var(--r-md);
+}
+.prose-bn input[type="checkbox"] {
+  margin-right: 6px;
+}
+.prose-bn .footnotes {
+  border-top: 1px solid var(--border);
+  margin-top: 2em;
+  font-size: 12.5px;
+  color: var(--text-muted);
+}
+.prose-bn .katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 4px 0;
+}
+
+.cm-editor {
+  height: 100%;
+  background: var(--bg-elevated);
+  color: var(--text);
+}
+.cm-editor.cm-focused {
+  outline: none;
+}
+.cm-scroller {
+  font-family: var(--font-code);
+  line-height: 1.6;
+}
+.cm-gutters {
+  background: var(--bg-elevated);
+  border-right: 1px solid var(--border);
+  color: var(--text-muted);
+}
+
+@keyframes art-rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.985);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.art-rise {
+  animation: art-rise 420ms cubic-bezier(0.22, 0.7, 0.24, 1) both;
+}
+
+.no-selection-glow {
+  border-radius: var(--r-full);
+  background:
+    radial-gradient(62% 58% at 28% 32%, var(--accent), transparent 72%),
+    radial-gradient(56% 52% at 74% 60%, var(--info), transparent 74%),
+    radial-gradient(48% 44% at 54% 88%, var(--warning), transparent 76%);
+  filter: blur(24px);
+  opacity: 0.14;
+}
+
+[data-theme="dark"] .no-selection-glow {
+  opacity: 0.24;
+}
+
+.reduce-motion * {
+  animation: none !important;
+  transition: none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}

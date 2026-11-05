@@ -1,0 +1,22 @@
+{
+  "title": "Projekte",
+  "new": "Neues Projekt",
+  "name": "Name",
+  "description": "Beschreibung",
+  "color": "Farbe",
+  "empty": {
+    "title": "Notizen in Projekten gruppieren",
+    "description": "Projekte sammeln Notizen aus allen Schemas, zum Beispiel ein Forschungsprojekt.",
+    "action": "Projekt erstellen"
+  },
+  "deleteTitle": "Projekt löschen?",
+  "deleteMessage": "Die Notizen von „{{name}}“ wandern in den Eingang. Keine Notiz wird gelöscht.",
+  "deleteConfirm": "Projekt löschen",
+  "moveTo": "In Projekt verschieben",
+  "inbox": "Eingang",
+  "created": "Erstellt",
+  "count_one": "{{count}} Notiz",
+  "count_other": "{{count}} Notizen",
+  "nameRequired": "Ein Projektname ist erforderlich",
+  "nameExists": "Ein Projekt mit diesem Namen existiert bereits"
+}

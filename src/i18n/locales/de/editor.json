@@ -1,0 +1,49 @@
+{
+  "mode": {
+    "source": "Quelltext",
+    "preview": "Vorschau",
+    "split": "Geteilt"
+  },
+  "toolbar": {
+    "bold": "Fett",
+    "italic": "Kursiv",
+    "strikethrough": "Durchgestrichen",
+    "code": "Inline-Code",
+    "heading": "Überschrift",
+    "list": "Aufzählung",
+    "taskList": "Aufgabenliste",
+    "quote": "Zitat",
+    "codeBlock": "Codeblock",
+    "table": "Tabelle",
+    "link": "Link",
+    "noteLink": "Notiz verknüpfen",
+    "image": "Bild anhängen",
+    "math": "Mathematik",
+    "sketch": "Skizze",
+    "attach": "Datei anhängen"
+  },
+  "placeholder": "In Markdown schreiben…",
+  "dropHint": "Datei ablegen, um sie anzuhängen",
+  "copyCode": "Code kopieren",
+  "copied": "Kopiert",
+  "missingAttachment": "Fehlender Anhang: {{name}}",
+  "remoteImageBlocked": "Externes Bild blockiert: {{url}}",
+  "rawMode": "Diese Notiz hat ungültige Frontmatter und wird schreibgeschützt angezeigt, bis das Problem behoben ist.",
+  "largeNote": "Bei großen Notizen wird die Vorschau auf Anforderung aktualisiert.",
+  "refreshPreview": "Vorschau aktualisieren",
+  "previewEmpty": "Noch nichts zum Anzeigen",
+  "sketch": {
+    "title": "Skizze",
+    "new": "Neue Skizze",
+    "open": "Skizze öffnen",
+    "download": "Vorschau herunterladen",
+    "delete": "Skizze löschen",
+    "empty": "Noch keine Skizzen",
+    "saving": "Skizze wird gespeichert…",
+    "error": "Die Skizze konnte nicht geladen werden"
+  },
+  "confirmLocalFile": "Diese lokale Datei öffnen?",
+  "copyPath": "Pfad kopieren",
+  "openFile": "Datei öffnen",
+  "linkBlocked": "Dieser Linktyp ist aus Sicherheitsgründen blockiert"
+}

@@ -1,0 +1,49 @@
+{
+  "mode": {
+    "source": "Source",
+    "preview": "Preview",
+    "split": "Split"
+  },
+  "toolbar": {
+    "bold": "Bold",
+    "italic": "Italic",
+    "strikethrough": "Strikethrough",
+    "code": "Inline code",
+    "heading": "Heading",
+    "list": "Bulleted list",
+    "taskList": "Task list",
+    "quote": "Quote",
+    "codeBlock": "Code block",
+    "table": "Table",
+    "link": "Link",
+    "noteLink": "Link to a note",
+    "image": "Attach image",
+    "math": "Math",
+    "sketch": "Sketch",
+    "attach": "Attach file"
+  },
+  "placeholder": "Write in Markdown…",
+  "dropHint": "Drop a file to attach it",
+  "copyCode": "Copy code",
+  "copied": "Copied",
+  "missingAttachment": "Missing attachment: {{name}}",
+  "remoteImageBlocked": "Remote image blocked: {{url}}",
+  "rawMode": "This note has invalid front matter and is shown read-only until the problem is resolved.",
+  "largeNote": "The preview is updated on demand for large notes.",
+  "refreshPreview": "Refresh preview",
+  "previewEmpty": "Nothing to preview yet",
+  "sketch": {
+    "title": "Sketch",
+    "new": "New sketch",
+    "open": "Open sketch",
+    "download": "Download preview",
+    "delete": "Delete sketch",
+    "empty": "No sketches yet",
+    "saving": "Saving sketch…",
+    "error": "The sketch could not be loaded"
+  },
+  "confirmLocalFile": "Open this local file?",
+  "copyPath": "Copy path",
+  "openFile": "Open file",
+  "linkBlocked": "This link type is blocked for safety"
+}

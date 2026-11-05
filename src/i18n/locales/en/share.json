@@ -1,0 +1,31 @@
+{
+  "export": {
+    "title": "Export",
+    "description": "Exports a .bnpkg bundle with notes, schemas, projects and attachments. Note links are rewritten so the bundle can be imported elsewhere.",
+    "scope": "Scope",
+    "workspace": "Whole workspace",
+    "project": "Project",
+    "choosePath": "Choose destination…",
+    "done": "Bundle written to {{path}}",
+    "note": "Export note",
+    "noteDone": "Note exported to {{path}}",
+    "counts": "{{notes}} notes, {{attachments}} attachments"
+  },
+  "import": {
+    "title": "Import bundle",
+    "chooseFile": "Choose a .bnpkg file…",
+    "preview": "Preview",
+    "mode": "Import mode",
+    "modeMerge": "Merge — newest revision wins",
+    "modeKeepLocal": "Keep local — only add missing notes",
+    "modeKeepIncoming": "Keep incoming — replace local notes",
+    "summary": "{{new}} new, {{updated}} updated, {{unchanged}} unchanged, {{conflicts}} conflicts",
+    "schemas": "Schemas",
+    "projects": "Projects",
+    "attachments": "{{count}} attachments, {{size}}",
+    "warnings": "Warnings",
+    "confirm": "Import",
+    "done": "Imported: {{created}} created, {{updated}} updated, {{skipped}} skipped, {{conflicts}} conflict copies",
+    "invalid": "This file is not a valid Better Notepad bundle"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "title": "Tastenkürzel",
+  "close": "Schließen",
+  "newNote": "Neue Notiz",
+  "newNoteWithSchema": "Neue Notiz mit Schema",
+  "newSchema": "Neues Schema",
+  "save": "Sofort speichern",
+  "undo": "Rückgängig",
+  "redo": "Wiederholen",
+  "search": "Suche fokussieren",
+  "palette": "Befehlspalette",
+  "quickOpen": "Notiz schnell öffnen",
+  "editorMode": "Editoransicht umschalten",
+  "sidebar": "Seitenleiste umschalten",
+  "schemas": "Schema 1–9 wählen",
+  "back": "Zurück",
+  "forward": "Vorwärts",
+  "deleteNote": "Ausgewählte Notiz löschen",
+  "rename": "Ausgewählte Notiz umbenennen",
+  "escape": "Overlay schließen oder Suche leeren",
+  "help": "Dieses Fenster anzeigen"
+}

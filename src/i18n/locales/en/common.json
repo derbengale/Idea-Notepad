@@ -1,0 +1,122 @@
+{
+  "appName": "Better Notepad",
+  "actions": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "close": "Close",
+    "create": "Create",
+    "edit": "Edit",
+    "duplicate": "Duplicate",
+    "restore": "Restore",
+    "open": "Open",
+    "remove": "Remove",
+    "add": "Add",
+    "confirm": "Confirm",
+    "back": "Back",
+    "forward": "Forward",
+    "retry": "Retry",
+    "dismiss": "Dismiss",
+    "copy": "Copy",
+    "copyPath": "Copy path",
+    "search": "Search",
+    "settings": "Settings",
+    "export": "Export",
+    "import": "Import",
+    "signIn": "Sign in",
+    "signOut": "Sign out",
+    "syncNow": "Sync now",
+    "pause": "Pause",
+    "resume": "Resume",
+    "newNote": "New note",
+    "newSchema": "New schema",
+    "newProject": "New project",
+    "openFolder": "Open folder",
+    "apply": "Apply",
+    "done": "Done",
+    "untitled": "Untitled"
+  },
+  "states": {
+    "loading": "Loading…",
+    "empty": "Nothing here yet",
+    "noSelection": "Select a note to start reading",
+    "offline": "Offline — changes will sync later",
+    "error": "Something went wrong",
+    "saving": "Saving…",
+    "saved": "Saved",
+    "dirty": "Unsaved changes"
+  },
+  "labels": {
+    "all": "All notes",
+    "inbox": "Inbox",
+    "trash": "Trash",
+    "notes": "Notes",
+    "projects": "Projects",
+    "schemas": "Schemas",
+    "tags": "Tags",
+    "attachments": "Attachments",
+    "links": "Links",
+    "backlinks": "Referenced by",
+    "created": "Created",
+    "updated": "Updated",
+    "words": "Words",
+    "version": "Version",
+    "theme": "Theme",
+    "language": "Language",
+    "general": "General",
+    "editor": "Editor",
+    "sync": "Sync",
+    "data": "Data",
+    "diagnostics": "Diagnostics",
+    "density": "Density",
+    "sort": "Sort",
+    "actions": "Actions",
+    "results": "{{count}} of {{total}}",
+    "searchPlaceholder": "Search notes…"
+  },
+  "theme": {
+    "system": "System",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "language": {
+    "system": "System",
+    "en": "English",
+    "de": "German"
+  },
+  "counts": {
+    "notes_one": "{{count}} note",
+    "notes_other": "{{count}} notes",
+    "results_one": "{{count}} result",
+    "results_other": "{{count}} results"
+  },
+  "toast": {
+    "saved": "Saved",
+    "deleted": "Moved to trash",
+    "restored": "Restored",
+    "copied": "Copied",    "linked": "Link created",
+    "moved": "Moved",    "error": "The action failed"
+  },
+  "field": {
+    "required": "Required"
+  },
+  "palette": {
+    "placeholder": "Search notes or run a command…",
+    "notes": "Notes",
+    "actions": "Actions",
+    "navigation": "Navigation",
+    "noResults": "No matches"
+  },
+  "shortcuts": {
+    "open": "Keyboard shortcuts"
+  },
+  "syncStatus": {
+    "idle": "Up to date",
+    "syncing": "Syncing…",
+    "offline": "Offline",
+    "paused": "Paused",
+    "error": "Sync error",
+    "conflict": "Conflict",
+    "pending": "{{count}} pending"
+  }
+}

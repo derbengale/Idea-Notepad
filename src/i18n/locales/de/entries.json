@@ -1,0 +1,81 @@
+{
+  "new": "Neue Notiz",
+  "newWithSchema": "Neue Notiz mit Schema",
+  "empty": {
+    "title": "Noch keine Notizen",
+    "description": "Halte die erste Idee, Aufgabe oder das erste Experiment fest.",
+    "action": "Erste Notiz erstellen"
+  },
+  "noResults": "Keine Notizen passen zu den aktuellen Filtern",
+  "clearFilters": "Filter zurücksetzen",
+  "filterBy": "Nur diese Notizen anzeigen",
+  "editSchema": "Schema bearbeiten",
+  "linkDialog": {
+    "searchPlaceholder": "Notizen durchsuchen…",
+    "empty": "Keine weiteren Notizen zum Verknüpfen",
+    "noResults": "Keine Treffer"
+  },
+  "sort": {
+    "updated": "Aktualisiert",
+    "created": "Erstellt",
+    "title": "Titel"
+  },
+  "density": {
+    "comfortable": "Komfortabel",
+    "compact": "Kompakt"
+  },
+  "showing": "{{shown}} von {{total}} angezeigt",
+  "trash": {
+    "empty": "Der Papierkorb ist leer",
+    "restore": "Notiz wiederherstellen"
+  },
+  "list": {
+    "updatedAgo": "aktualisiert {{when}}",
+    "links_one": "{{count}} Verknüpfung",
+    "links_other": "{{count}} Verknüpfungen"
+  },
+  "detail": {
+    "deleteTitle": "Notiz löschen?",
+    "deleteMessage": "„{{title}}“ wird für 30 Tage in den Papierkorb verschoben und bei der nächsten Synchronisierung aus Drive entfernt.",
+    "deleteConfirm": "Notiz löschen",
+    "duplicate": "Notiz duplizieren",
+    "export": "Als Markdown exportieren",
+    "moveToProject": "In Projekt verschieben",
+    "untrash": "Wiederherstellen",
+    "moveToInbox": "In den Eingang verschieben",
+    "project": "Projekt",
+    "addLink": "Notiz verknüpfen",
+    "linkPlaceholder": "Notiz wählen…",
+    "noLinks": "Keine ausgehenden Verknüpfungen",
+    "noBacklinks": "Keine Backlinks",
+    "markdownLinks": "Aus dem Notiztext",
+    "markdownBacklinks": "Verlinkt aus anderen Notizen",
+    "attachmentAdd": "Datei anhängen",
+    "attachmentEmpty": "Noch keine Anhänge",
+    "attachmentDelete": "Anhang löschen",
+    "linkRemove": "Verknüpfung entfernen",
+    "footer": {
+      "created": "Erstellt {{date}}",
+      "updated": "Aktualisiert {{date}}",
+      "words": "{{count}} Wörter",
+      "syncState": "Sync: {{state}}"
+    },
+    "inTrash": "Diese Notiz liegt im Papierkorb",
+    "notFound": "Die Notiz existiert nicht mehr"
+  },
+  "fields": {
+    "tagsPlaceholder": "Tag hinzufügen…",
+    "addTag": "Tag erstellen",
+    "formulaHint": "Berechnet aus dem Ausdruck {{expression}}",
+    "empty": "Nicht gesetzt",
+    "datePlaceholder": "JJJJ-MM-TT",
+    "dateTimePlaceholder": "JJJJ-MM-TTTHH:mm",
+    "scaleLabel": "{{value}} von {{max}}",
+    "chooseStatus": "Status wählen",
+    "newTagColor": "Tag-Farbe"
+  },
+  "quickCapture": {
+    "title": "Schnellerfassung",
+    "body": "Schreibe etwas…"
+  }
+}

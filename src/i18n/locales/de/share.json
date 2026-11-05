@@ -1,0 +1,31 @@
+{
+  "export": {
+    "title": "Exportieren",
+    "description": "Exportiert ein .bnpkg-Paket mit Notizen, Schemas, Projekten und Anhängen. Notizlinks werden so umgeschrieben, dass das Paket anderswo importiert werden kann.",
+    "scope": "Umfang",
+    "workspace": "Gesamter Arbeitsbereich",
+    "project": "Projekt",
+    "choosePath": "Ziel wählen…",
+    "done": "Paket geschrieben nach {{path}}",
+    "note": "Notiz exportieren",
+    "noteDone": "Notiz exportiert nach {{path}}",
+    "counts": "{{notes}} Notizen, {{attachments}} Anhänge"
+  },
+  "import": {
+    "title": "Paket importieren",
+    "chooseFile": ".bnpkg-Datei wählen…",
+    "preview": "Vorschau",
+    "mode": "Importmodus",
+    "modeMerge": "Zusammenführen — neueste Version gewinnt",
+    "modeKeepLocal": "Lokal behalten — nur fehlende Notizen hinzufügen",
+    "modeKeepIncoming": "Eingehend behalten — lokale Notizen ersetzen",
+    "summary": "{{new}} neu, {{updated}} aktualisiert, {{unchanged}} unverändert, {{conflicts}} Konflikte",
+    "schemas": "Schemas",
+    "projects": "Projekte",
+    "attachments": "{{count}} Anhänge, {{size}}",
+    "warnings": "Warnungen",
+    "confirm": "Importieren",
+    "done": "Importiert: {{created}} erstellt, {{updated}} aktualisiert, {{skipped}} übersprungen, {{conflicts}} Konfliktkopien",
+    "invalid": "Diese Datei ist kein gültiges Better-Notepad-Paket"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "VALIDATION": {
+    "title": "Bitte Eingabe prüfen",
+    "description": "Ein Wert fehlt oder ist ungültig."
+  },
+  "NOT_FOUND": {
+    "title": "Nicht gefunden",
+    "description": "Der Eintrag existiert nicht mehr."
+  },
+  "CONFLICT": {
+    "title": "Konflikt",
+    "description": "Der Eintrag wurde zwischenzeitlich geändert."
+  },
+  "DB": {
+    "title": "Datenbankfehler",
+    "description": "Die lokale Datenbank konnte den Vorgang nicht abschließen."
+  },
+  "IO": {
+    "title": "Dateifehler",
+    "description": "Eine Datei konnte nicht gelesen oder geschrieben werden."
+  },
+  "AUTH_REQUIRED": {
+    "title": "Anmeldung erforderlich",
+    "description": "Melde dich mit Google an, um diesen Arbeitsbereich zu synchronisieren."
+  },
+  "AUTH_FAILED": {
+    "title": "Anmeldung fehlgeschlagen",
+    "description": "Die Google-Anmeldung wurde nicht abgeschlossen."
+  },
+  "NETWORK": {
+    "title": "Netzwerkfehler",
+    "description": "Google Drive war nicht erreichbar. Deine Änderungen bleiben lokal erhalten."
+  },
+  "QUOTA": {
+    "title": "Drive ist ausgelastet",
+    "description": "Google Drive hat die Anfrage begrenzt oder abgelehnt. Die Synchronisierung versucht es automatisch erneut."
+  },
+  "UNSUPPORTED": {
+    "title": "Nicht unterstützt",
+    "description": "Diese Datei oder Version wird nicht unterstützt."
+  },
+  "UNKNOWN": {
+    "title": "Unerwarteter Fehler",
+    "description": "Der Vorgang ist fehlgeschlagen."
+  },
+  "details": "Details"
+}

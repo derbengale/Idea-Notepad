@@ -1,0 +1,81 @@
+{
+  "new": "New note",
+  "newWithSchema": "New note with schema",
+  "empty": {
+    "title": "No notes yet",
+    "description": "Capture the first idea, task or experiment.",
+    "action": "Create the first note"
+  },
+  "noResults": "No notes match the current filters",
+  "clearFilters": "Clear filters",
+  "filterBy": "Show only these notes",
+  "editSchema": "Edit schema",
+  "linkDialog": {
+    "searchPlaceholder": "Search notes…",
+    "empty": "No other notes to link",
+    "noResults": "No matches"
+  },
+  "sort": {
+    "updated": "Updated",
+    "created": "Created",
+    "title": "Title"
+  },
+  "density": {
+    "comfortable": "Comfortable",
+    "compact": "Compact"
+  },
+  "showing": "Showing {{shown}} of {{total}}",
+  "trash": {
+    "empty": "The trash is empty",
+    "restore": "Restore note"
+  },
+  "list": {
+    "updatedAgo": "updated {{when}}",
+    "links_one": "{{count}} link",
+    "links_other": "{{count}} links"
+  },
+  "detail": {
+    "deleteTitle": "Delete note?",
+    "deleteMessage": "“{{title}}” moves to the trash for 30 days and is removed from Drive on the next sync.",
+    "deleteConfirm": "Delete note",
+    "duplicate": "Duplicate note",
+    "export": "Export as Markdown",
+    "moveToProject": "Move to project",
+    "untrash": "Restore",
+    "moveToInbox": "Move to Inbox",
+    "project": "Project",
+    "addLink": "Link a note",
+    "linkPlaceholder": "Choose a note…",
+    "noLinks": "No outgoing links",
+    "noBacklinks": "No backlinks",
+    "markdownLinks": "From the note body",
+    "markdownBacklinks": "Linked from other notes",
+    "attachmentAdd": "Attach file",
+    "attachmentEmpty": "No attachments yet",
+    "attachmentDelete": "Delete attachment",
+    "linkRemove": "Remove link",
+    "footer": {
+      "created": "Created {{date}}",
+      "updated": "Updated {{date}}",
+      "words": "{{count}} words",
+      "syncState": "Sync: {{state}}"
+    },
+    "inTrash": "This note is in the trash",
+    "notFound": "The note no longer exists"
+  },
+  "fields": {
+    "tagsPlaceholder": "Add a tag…",
+    "addTag": "Create tag",
+    "formulaHint": "Computed from the expression {{expression}}",
+    "empty": "Not set",
+    "datePlaceholder": "YYYY-MM-DD",
+    "dateTimePlaceholder": "YYYY-MM-DDTHH:mm",
+    "scaleLabel": "{{value}} of {{max}}",
+    "chooseStatus": "Choose a status",
+    "newTagColor": "Tag colour"
+  },
+  "quickCapture": {
+    "title": "Quick capture",
+    "body": "Write something…"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Account",
+  "signedInAs": "Signed in as {{email}}",
+  "signIn": "Sign in with Google",
+  "signInDescription": "Better Notepad uses the private app data folder of your Google Drive. It cannot see anything else in your Drive.",
+  "signInHint": "A browser window opens for the Google consent screen.",
+  "clientIdHint": "Google sign-in is not configured in this build. Install a build that includes the publisher's OAuth client.",
+  "notSignedIn": "Not signed in",
+  "signOutTitle": "Sign out?",
+  "signOutMessage": "Choose what happens to the local copy of your notes.",
+  "keepLocal": "Keep local data",
+  "removeLocal": "Remove local data",
+  "removeLocalWarning": "Local notes are deleted. They remain in your Drive app data folder and return after signing in again.",
+  "signOutConfirm": "Sign out",
+  "openAccountSettings": "Open account settings",
+  "scopeNotice": "Only the hidden app data folder is accessed. Nothing is shared."
+}

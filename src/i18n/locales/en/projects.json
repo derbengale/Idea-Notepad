@@ -1,0 +1,22 @@
+{
+  "title": "Projects",
+  "new": "New project",
+  "name": "Name",
+  "description": "Description",
+  "color": "Colour",
+  "empty": {
+    "title": "Group notes into projects",
+    "description": "Projects collect notes across schemas, for example a research project.",
+    "action": "Create a project"
+  },
+  "deleteTitle": "Delete project?",
+  "deleteMessage": "The notes of “{{name}}” move to the Inbox. No note is deleted.",
+  "deleteConfirm": "Delete project",
+  "moveTo": "Move to project",
+  "inbox": "Inbox",
+  "created": "Created",
+  "count_one": "{{count}} note",
+  "count_other": "{{count}} notes",
+  "nameRequired": "A project name is required",
+  "nameExists": "A project with this name already exists"
+}
